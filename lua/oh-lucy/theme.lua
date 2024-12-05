@@ -36,8 +36,8 @@ M.base = {
     -- Rendered MarkDown Header Colors
     DiffAdd      = { fg = colors.pink, bg = colors.bg  }, -- H1
     DiffAdded    = { fg = colors.pink, bg = colors.bg  },
-    DiffDelete   = { fg = colors.pink, bg = colors.bg  }, -- H3
-    DiffChange   = { fg = colors.pink, bg = colors.bg  }, -- H2
+    DiffDelete   = { fg = colors.red_key_w, bg = colors.bg  }, -- H3
+    DiffChange   = { fg = colors.yellow, bg = colors.bg  }, -- H2
     DiffRemoved  = { fg = colors.red_key_w, bg = colors.bg  },
     DiffText     = { fg = colors.white1 },
     DiffFile     = { fg = colors.pink },
@@ -534,7 +534,7 @@ M.plugins = {
     -----------------------------------------
     -- render-markdown: github.com/MeanderingProgrammer/render-markdown.nvim
     -----------------------------------------
-    ["@markup.quote"]                       = { fg = colors.green_func },
+    ["@markup.quote"]                       = { fg = colors.white1 },
     ["@markup.link.label.markdown_inline"]  = { fg = colors.blue_type },
     ["@markup.raw"]                         = { fg = colors.yellow },
     ["@markup.list.checked"]                = { fg = colors.green_func },

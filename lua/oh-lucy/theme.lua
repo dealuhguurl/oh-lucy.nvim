@@ -18,7 +18,7 @@ M.base = {
     Boolean      = { fg = colors.boolean, style = config.italic_booleans },
 
     Character    = { fg = colors.yellow },
-    ColorColumn  = { bg = colors.bg },
+    ColorColumn  = { bg = colors.black1 },
     Comment      = { fg = colors.comment, style = 'italic' },
     Conceal      = { fg = colors.fg }, -- {bg = config.transparent_background and 'NONE' or colors.bg },
     Conditional  = { fg = colors.red_key_w },

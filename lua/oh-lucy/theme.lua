@@ -44,7 +44,7 @@ M.base = {
     -- DiffIndexLine     = { fg = colors.gray3 },
 
 
-    -- EndOfBuffer = { fg = colors.bg },
+    EndOfBuffer = { fg = colors.bg },
     Error                     = { fg = colors.red_key_w, bg = colors.bg, style = 'bold' },
     ErrorMsg                  = { fg = colors.gray, bg = colors.red_err, style = 'bold' },
     Exception                 = { fg = colors.white },
